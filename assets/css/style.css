@@ -135,6 +135,22 @@ main {
     margin: 5px 0;
 
 }
+
+#circle-cover-bg {
+    background: url("../favicon/images/reasons-image1.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    height: 300px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* footer*/
 #social-networks {
     text-align: center;
