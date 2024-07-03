@@ -212,7 +212,7 @@ main {
         text-align: end;
         align-self: flex-end;
     }
-
+}
 @media screen and (min-width: 992px) {    
     #menu a:hover{
         border-bottom: solid 1px #3a3a3a;
@@ -239,3 +239,4 @@ main {
     #benefits-physical > div {
         align-self: flex-end;
     }
+}
