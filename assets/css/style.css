@@ -181,6 +181,15 @@ main {
     color:#3a3a3a;
 } 
 
+/*large or landscape phones 576px and up*/
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+
+
 /*tablets and larger 768px and up*/
 @media screen and (min-width: 768px) {
     /*header*/
@@ -227,10 +236,16 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+    #photos {
+        column-count: 3;
+    }
 }
 @media screen and (min-width: 992px) {    
     #menu a:hover{
         border-bottom: solid 1px #3a3a3a;
+    }
+    #photos {
+        column-count: 4;
     }
 }
 
