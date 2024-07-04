@@ -88,6 +88,8 @@ nav {
 main {
     flex: 1 0 auto;
     margin-top: 49px; 
+    display: flex;
+    flex-direction: column;
 }
 
 /*Hero section*/
@@ -165,7 +167,51 @@ main {
     line-height: 0;
 }
 
+/*Sign up page*/
+    
+#signup {
+    background: url("../images/signup-image.webp") no-repeat center center/cover;
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
 
+#signup form > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
+    border-radius: 2px;
+    border: 1px #fafafa solid; 
+}
+.radio-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.join-button {
+    color:#fafafa;
+    background-color: #454b1b;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+}
 /* footer*/
 #social-networks {
     text-align: center;
