@@ -170,7 +170,7 @@ main {
 /*Sign up page*/
     
 #signup {
-    background: url("../images/signup-image.webp") no-repeat center center/cover;
+    background: url("../images/signup-image.webp") no-repeat center center / cover;
     background-size: cover;
     background-position: 75%;
     flex-grow: 1;
